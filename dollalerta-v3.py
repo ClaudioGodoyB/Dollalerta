@@ -146,7 +146,7 @@ class getUsers():
         return
 
     def getSheets(self):
-        SERVICE_ACCOUNT_FILE = '/home/claudiogodoyb/programas/keys.json'
+        SERVICE_ACCOUNT_FILE = #AQUI VAN LAS KEYS DEL SERVICIO DE GOOGLE
         SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
         creds = None
         creds = service_account.Credentials.from_service_account_file(
